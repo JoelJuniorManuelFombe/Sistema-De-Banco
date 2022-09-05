@@ -1,0 +1,68 @@
+/* Navegacao */
+body {
+    margin:0;
+    padding:0;
+}
+
+.Barra {
+    Background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17;
+    margin-top: 0;
+}
+
+/* lOGOTIPO */
+
+.logo {
+    color: 	#00ff00;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.logo-vermelho {
+    color: 	#ff0000;
+}
+
+/* Barra de navegacao esquerda */
+
+.navegacao {
+    float: left;
+    background-color:aqua;
+    width: 300px;
+    display: flex;
+    padding: 10px;
+
+    
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.Boas-vindas {
+    Display: flex;
+    padding: 20px;
+    justify-content: center;
+
+
+}
+
+/* Lista lado A */
+
+.lista-lado-a {
+
+    width: 300;
+    background-color:aqua;
+
+
+}
+.lista-lado-a-link {
+    position: left;
+}

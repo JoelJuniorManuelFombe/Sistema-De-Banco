@@ -1,0 +1,71 @@
+body { 
+    width: 100vw;
+    /* background-image: url(../imagens/fundos-de-acoes-o-que-sao-como-funcionam-custos-e-como-investir-6.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background: linear-gradient(to bottom, #33ccff 10%, #cc99ff 100%);
+}
+
+.usuario {
+    border-radius:50%;
+    /* position: relative; */
+    position: Absolute;
+    top: -50px;
+    left: 35%;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+.Login {
+    width: 320px;
+    color : #fff;
+    padding: 68px 28px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+
+}
+
+.Caixa {
+    width: 300px;
+    height: 300px;
+    /* background: #fff; */
+
+    
+}
+
+.Caixa input {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.Caixa input[type="text"], [type="password"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    /* color: white; */
+    font-size: 16px;
+}
+
+.login input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+    border: none;
+    outline: none;
+}

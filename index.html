@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @font-face {
+            font-family: minha;
+            src: url(fontes/Pacifico-Regular.ttf);
+        }
+
+        .logo {
+            font-family: minha;
+        }
+
+        @font-face {
+            font-family: minha2;
+            src: url(fontes/OleoScript-Regular.ttf);
+        }
+
+        header .navegacao {
+            font-family: minha2;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Banco<span>.</span></a>
+            <ul class="navegacao">
+                <li><a href="#conteudo">Inicio<span>.</span></a></li>
+                <li><a href="#Sobre">Sobre Nos<span>.</span></a></li>
+                <li><a href="#servico">Nossos Servicos<span>.</span></a></li>
+                <li><a href="#contacto">Contacte-nos<span>.</span></a></li>
+                <li><a href="#container">Infos<span>.</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <img class="imagem1" src="imagens/negócio-team-celebration-party-success-concept-66884191.jpg" alt="capa"> <br> -->
+
+    <section class="conteudo" id="conteudo">
+        <div class="conteudo1">
+            <h2 class="ponto">Comece O Seu Futuro Aqui<span>.</span></h2>
+
+            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+            <a href="html/login1.html" class="Conta">Conectar-se</a>
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", 
+        function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+    </script>
+
+    <div class="Sobre" id="Sobre">
+        <h2><strong>Sobre Nos</strong><span>.</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, magnam consequatur voluptas, aliquid saepe optio suscipit consequuntur, accusantium explicabo repellendus et asperiores. Id officiis assumenda odit eveniet aspernatur reprehenderit a.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nisi commodi suscipit nemo, animi ab, rerum omnis eos dolor, id voluptatum culpa recusandae eum doloribus laboriosam enim harum nam dicta?<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, iure ipsa ipsam et aliquid error! Quisquam sequi, sed vel repellendus sit, dolorem ipsam eaque mollitia deleniti nisi exercitationem ratione explicabo!<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, nihil numquam, a sapiente distinctio accusamus possimus perspiciatis sequi facere explicabo quos nostrum provident fugit illum saepe porro asperiores eaque! Ducimus.<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sed, architecto id esse officia maxime recusandae nobis voluptatibus nam corporis, neque quia autem dolore consequatur delectus et laudantium quasi accusantium!</p>
+
+    </div>
+
+    <div class="servico" id="servico">
+        <h2><strong>Nossos Servicos<span>.</span></strong></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur inventore dolor incidunt doloribus! Excepturi similique sapiente a? Unde distinctio veniam, nihil sequi ratione, consequatur eligendi soluta, quae voluptate adipisci cum!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores, at eaque, pariatur sit quo quidem earum iusto ab impedit eos atque! Alias ipsam quia maxime quisquam maiores perspiciatis ut?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nam doloremque nostrum iure error dicta laudantium! Nemo consectetur, nam minima error consequuntur nostrum quae, quo beatae, architecto impedit doloribus consequatur?<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, illum! Quod nam minima exercitationem maxime adipisci placeat, quis quasi quas obcaecati quisquam enim! Maiores placeat odit ut nihil ratione amet.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum, animi commodi voluptatum pariatur eius tenetur fugiat nisi, provident iure illo voluptatem quibusdam perspiciatis aspernatur et autem corrupti ut voluptas?</p>
+    </div>
+    
+    <section class="contacto" id="contacto">
+        <div class="titulo">
+            <h3>Contacte Nos<span>.</span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia necessitatibus hic fugit atque ducimus laudantium, aperiam placeat, doloremque veritatis quo cupiditate id velit illo, animi deserunt est vel impedit. Similique.</p>
+        </div>
+        <div class="formacontacto">
+            <h3><strong>Mande-nos uma Mensagem</strong><span>.</span></h3>
+            <div class="contactobox">
+                <input class="text" placeholder="Nome">
+            </div>
+
+            <div class="contactobox">
+                <input class="email" placeholder="Email">
+            </div>
+
+            <div class="contactobox">
+                <textarea placeholder="Mensagem"></textarea>
+            </div>
+
+            <div class="contactobox">
+                <input type="submit" volue="Enviar">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container" id="container">
+            <div class="logo2 c">
+                <a href="index.html" class="logo">Banco<span>.</span></a>
+            </div>
+            <div class="container2 c1">
+                Horas: 07:30 - 15:30<br><br>
+                Endereço: Inhamizua<br><br>
+                Telefone: +258849433171 / +258879433172<br><br>
+                Gerente Principal: Joel Junior<br><br>
+                E-mail: <a href="#">joeljuniormanuel@gmail.com</a><br><br>
+
+            </div>
+            <div class="container2 c2" >
+                Tempor qui ipsum ex sint sunt ullamco. Veniam amet non commodo qui officia esse. Nostrud ex labore labore ut id eu ea reprehenderit velit nulla do aliqua. Cillum fugiat dolore officia enim consequat officia adipisicing enim ullamco aliqua occaecat veniam aliqua. Elit eu Lorem ex dolor sit. Veniam consectetur amet enim anim dolor et ad veniam culpa culpa eiusmod tempor consequat.
+
+                Duis tempor ipsum occaecat dolor quis consectetur ea in. Id nulla duis et sunt officia. Eu ad ex officia exercitation eiusmod eu. Nisi fugiat labore nisi tempor deserunt sit minim commodo labore qui proident deserunt dolore.    
+            </div>
+            <div class="container2 c3">
+                Tempor qui ipsum ex sint sunt ullamco. Veniam amet non commodo qui officia esse. Nostrud ex labore labore ut id eu ea reprehenderit velit nulla do aliqua. Cillum fugiat dolore officia enim consequat officia adipisicing enim ullamco aliqua occaecat veniam aliqua. Elit eu Lorem ex dolor sit. Veniam consectetur amet enim anim dolor et ad veniam culpa culpa eiusmod tempor consequat.
+
+                Duis tempor ipsum occaecat dolor quis consectetur ea in. Id nulla duis et sunt officia. Eu ad ex officia exercitation eiusmod eu. Nisi fugiat labore nisi tempor deserunt sit minim commodo labore qui proident deserunt dolore<span>.</span>  
+            </div>
+        </div>
+        <section style="justify-content: center; align-items: center;">
+            <p id="nome" style="color: #ffff">Created with love by Joel Junior ❤</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
